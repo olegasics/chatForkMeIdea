@@ -1,0 +1,13 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ForksServer:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/ForksServer_jar</output-path>
+    <root id="archive" name="Forks.jar">
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/network/src/META-INFd/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="module-output" name="client" />
+      <element id="module-output" name="network" />
+      <element id="module-output" name="server" />
+    </root>
+  </artifact>
+</component>
